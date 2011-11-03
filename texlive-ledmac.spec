@@ -1,3 +1,9 @@
+# revision 24192
+# category Package
+# catalog-ctan /macros/latex/contrib/ledmac
+# catalog-date 2011-10-04 11:31:57 +0200
+# catalog-license lppl
+# catalog-version 0.12.1
 Name:		texlive-ledmac
 Version:	0.12.1
 Release:	1
@@ -84,6 +90,7 @@ distributed with the related ledpar and ledarab packages.
 %doc %{_texmfdistdir}/source/latex/ledmac/ledmac.ins
 %doc %{_texmfdistdir}/source/latex/ledmac/ledpar.dtx
 %doc %{_texmfdistdir}/source/latex/ledmac/ledpar.ins
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -94,3 +101,5 @@ distributed with the related ledpar and ledarab packages.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
