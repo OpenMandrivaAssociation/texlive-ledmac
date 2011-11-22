@@ -1,11 +1,11 @@
-# revision 24192
+# revision 24631
 # category Package
 # catalog-ctan /macros/latex/contrib/ledmac
-# catalog-date 2011-10-04 11:31:57 +0200
+# catalog-date 2011-11-18 13:58:17 +0100
 # catalog-license lppl
-# catalog-version 0.12.1
+# catalog-version 0.13.1
 Name:		texlive-ledmac
-Version:	0.12.1
+Version:	0.13.1
 Release:	1
 Summary:	Typeset scholarly editions in parallel texts
 Group:		Publishing
