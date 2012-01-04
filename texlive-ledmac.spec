@@ -6,7 +6,7 @@
 # catalog-version 0.13.1
 Name:		texlive-ledmac
 Version:	0.13.1
-Release:	1
+Release:	2
 Summary:	Typeset scholarly editions in parallel texts
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/ledmac
