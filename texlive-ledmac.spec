@@ -1,13 +1,13 @@
-# revision 27016
+# revision 27721
 # category Package
 # catalog-ctan /macros/latex/contrib/ledmac
-# catalog-date 2012-06-21 10:44:34 +0200
+# catalog-date 2012-09-17 12:04:36 +0200
 # catalog-license lppl
-# catalog-version 0.16
+# catalog-version 0.19
 Name:		texlive-ledmac
-Version:	0.16
+Version:	0.19
 Release:	1
-Summary:	Typeset scholarly editions in parallel texts
+Summary:	Typeset scholarly editions
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/ledmac
 License:	LPPL
@@ -24,7 +24,8 @@ A macro package for typesetting scholarly critical editions.
 The ledmac package is a LaTeX port of the plain TeX EDMAC
 macros. It supports indexing by page and line number and simple
 tabular- and array-style environments. The package is
-distributed with the related ledpar and ledarab packages.
+distributed with the related ledpar and ledarab packages. The
+package is now superseded by eledmac.
 
 %post
     %{_sbindir}/texlive.post
