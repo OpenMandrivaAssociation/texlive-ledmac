@@ -1,11 +1,11 @@
-# revision 27721
+# revision 30987
 # category Package
 # catalog-ctan /macros/latex/contrib/ledmac
-# catalog-date 2012-09-17 12:04:36 +0200
+# catalog-date 2013-06-15 00:57:55 +0200
 # catalog-license lppl
-# catalog-version 0.19
+# catalog-version 0.19.1
 Name:		texlive-ledmac
-Version:	0.19
+Version:	0.19.1
 Release:	1
 Summary:	Typeset scholarly editions
 Group:		Publishing
