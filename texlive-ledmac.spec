@@ -5,8 +5,8 @@
 # catalog-license lppl
 # catalog-version 0.19.1
 Name:		texlive-ledmac
-Version:	0.19.1
-Release:	9
+Version:	0.19.4
+Release:	1
 Summary:	Typeset scholarly editions
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/ledmac
