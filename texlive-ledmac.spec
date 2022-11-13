@@ -1,19 +1,13 @@
-# revision 30987
-# category Package
-# catalog-ctan /macros/latex/contrib/ledmac
-# catalog-date 2013-06-15 00:57:55 +0200
-# catalog-license lppl
-# catalog-version 0.19.1
 Name:		texlive-ledmac
-Version:	0.19.4
-Release:	2
+Version:	41811
+Release:	1
 Summary:	Typeset scholarly editions
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/ledmac
 License:	LPPL
-Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/ledmac.tar.xz
-Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/ledmac.doc.tar.xz
-Source2:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/ledmac.source.tar.xz
+Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/ledmac.r%{version}.tar.xz
+Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/ledmac.doc.r%{version}.tar.xz
+Source2:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/ledmac.source.r%{version}.tar.xz
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
@@ -28,12 +22,12 @@ distributed with the related ledpar and ledarab packages. The
 package is now superseded by eledmac.
 
 %post
-    %{_sbindir}/texlive.post
+%{_sbindir}/texlive.post
 
 %postun
-    if [ $1 -eq 0 ]; then
+if [ $1 -eq 0 ]; then
 	%{_sbindir}/texlive.post
-    fi
+fi
 
 #-----------------------------------------------------------------------
 %files
@@ -84,7 +78,8 @@ package is now superseded by eledmac.
 
 #-----------------------------------------------------------------------
 %prep
-%setup -c -a0 -a1 -a2
+%setup -c -a1 -a2
+%autopatch -p1
 
 %build
 
