@@ -3,7 +3,7 @@ Version:	41811
 Release:	2
 Summary:	Typeset scholarly editions
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/ledmac
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/ledmac
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/ledmac.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/ledmac.doc.r%{version}.tar.xz
